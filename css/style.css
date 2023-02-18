@@ -154,20 +154,23 @@ body {
 /* About Section */
 .about,
 .menu,
-.contact {
+.contact,
+.cara-mesan {
   padding: 7rem 7% 1.4rem;
 }
 
 .about h2,
 .menu h2,
-.contact h2 {
+.contact h2,
+.cara-mesan h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
 }
 .about h2 span,
 .menu h2 span,
-.contact h2 span {
+.contact h2 span,
+.cara-mesan h2 span {
   color: var(--primary);
 }
 
@@ -289,6 +292,26 @@ body {
   cursor: pointer;
 }
 
+/*cara pemesanan section*/
+.cara-mesan .row {
+  /*display: flex;*/
+  margin-top: 2rem;
+  background-color: #222; 
+}
+.cara-mesan .row .toturial{
+/*  border-style: solid ;*/
+padding-bottom: 2rem;
+}
+.cara-mesan .row .video{
+/* border-style: solid ;
+*/  
+  padding-bottom: 2rem;
+}
+.cara-mesan .row .video video{
+ width: 100%;
+ height: auto; 
+ 
+}
 /* Footer */
 footer {
   background-color: var(--primary);
